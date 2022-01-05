@@ -10,10 +10,18 @@ const textboxes = {
 
   EECS1012_1015 : "EECS1012 and EECS1015 are both introductory programming courses. I took EECS1012 at the time because EECS1015 wasn't offered. EECS1012 is web development so you'll be learning \
                   HTML, CSS, and JavaScript. In EECS1015, you'll learn Python. Both are relatively easy and if you did any programming before, this will be very easy. Otherwise if you're new to \
-                  computing science and programming as a whole, it can be challenging depending on how quickly you can learn. I recommend EECS1015 because in my opinion Python is the more valuable \
+                  computer science and programming as a whole, it can be challenging depending on how quickly you can learn. I recommend EECS1015 because in my opinion Python is the more valuable \
                   language to know, but if you're interested in making websites EECS1012 is a viable option too. This course is definitely on the easier side of the spectrum. Difficulty 5 / 10 if \
                   you've never programmed before, otherwise 3 / 10.",
-
+  
+  EECS1015 : "EECS1015 is an introductory to python course. You will learn about: variables, string manipulation/methods, formatting output, flow structures (if, elif, else conditions) \
+              loops (for, while), functions (define and calling them), lists, tuples, dictionaries, sets, lists of lists of lists and assert statements. \
+              If you have experience in coding (with Java, for example) from high school, you should have a good foundation for this course. You will just learn how to apply these concepts \
+              in Python's syntax instead of Java \
+              If you don't have much experience in coding this course may be a little fast paced for you and it may seem overwhelming, but if you put in the effort and learn on the side a bit it is doable. \
+              Do keep in mind after all that this course is recommended for those that want a heavier introductory course. If you are new to coding, you might wanna take EECS1012\
+              This course is definitely on the easier side of the spectrum. Difficulty 6 / 10 if you've never programmed before, otherwise 3 / 10.",
+              
   EECS1019 : "Discrete math is not like your average mathematics such as advanced functions or calculus. This is about math that is related to computer science, and includes topics like logic, Boolean \
               algebra, set theory, graph theory, proofs with induction, and more. I found the first half of this course to be easy, but it definitely ramped up when we started doing proofs, counting \
               principles, and more. This can be a very theory heavy and abstract course, so I recommend not grouping this with other hard courses. Overall difficulty 7 / 10.",
