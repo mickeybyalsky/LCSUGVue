@@ -8,10 +8,11 @@ const textboxes = {
               will like this course. This is the easiest course you'll take, it's pass or fail, so no grade is received. To pass, you just need to attend class (attendance is checked) and do the \
               assignments, which typically aren't longer than an hour of time. Difficulty 1 / 10.",
 
-  EECS1012 : "This is an introductory programming course. You'll learn the fundamentals, such as what variables are, beginner programming logic (conditional logic, loops, program tracing), and \
-              the basics of web development. You'll be working with HTML, CSS, and JavaScript in this course. If you did any programming on your own or in high school, this will be very easy. \
-              If you didn't, you can still end with a high grade as long as you put in the time and effort needed (which is minimal). This course is definitely on the easier side of the spectrum. \
-              Difficulty 5 / 10 if you've never programmed before, otherwise 3 / 10.",
+  EECS1012_1015 : "EECS1012 and EECS1015 are both introductory programming courses. I took EECS1012 at the time because EECS1015 wasn't offered. EECS1012 is web development so you'll be learning \
+                  HTML, CSS, and JavaScript. In EECS1015, you'll learn Python. Both are relatively easy and if you did any programming before, this will be very easy. Otherwise if you're new to \
+                  computing science and programming as a whole, it can be challenging depending on how quickly you can learn. I recommend EECS1015 because in my opinion Python is the more valuable \
+                  language to know, but if you're interested in making websites EECS1012 is a viable option too. This course is definitely on the easier side of the spectrum. Difficulty 5 / 10 if \
+                  you've never programmed before, otherwise 3 / 10.",
 
   EECS1019 : "Discrete math is not like your average mathematics such as advanced functions or calculus. This is about math that is related to computer science, and includes topics like logic, Boolean \
               algebra, set theory, graph theory, proofs with induction, and more. I found the first half of this course to be easy, but it definitely ramped up when we started doing proofs, counting \
@@ -68,7 +69,7 @@ const textboxes = {
               You can squeak by with a C or B by doing the assignments and you can skip all the lectures, but if you want an A you need a lot of work. Difficulty 4 / 10.",
 
   EECS3101 : "One of the most important third year courses alongside EECS3221 and EECS3311. This course is about writing and analyzing algorithms. Lots of math, extremely heavy workload, and has its fair \
-              share of theory. If you're a LC / CP nerd then this course should be fine. Take this course seriously. Difficulty 8 / 10.",
+              share of theory. If you're a LeetCode / competitive programming nerd then this course should be fine. Take this course seriously. Difficulty 8 / 10.",
 
   EECS3311 : "My friends and I used to joke about this course a lot, calling it 'the gatekeeper' since it holds so many people back from graduation. It's less on the difficulty side, but there's just an \
               obscene amount of work. I took this in 2019 when it used to be taught in a crappy and proprietary langauge 'Eiffel' but after years of complaining, the course is now taught in Java / Python. \
@@ -92,21 +93,22 @@ const textboxes = {
               many as you want. This is one of the biggest selling points why people will drop out of the honours and graduate with the regular degree - you get to graduate ONE YEAR sooner. In my \
               personal opinion, the only reason you should stay in the honours is if you aren't entirely sure what you want to do when you graduate, and take more courses to explore your interests.",
 
-  ELECTIVES_4 : "Read my excerpt under year 1, year 2, and year 3. Take as many courses as you need to fulfill your degree requirements. My general POV on electives is take them as needed, don't overwhelm \
-                yourself, core courses come first and electives later. An elective should never be so overwhelming that your grades in the main courses suffer.",
+  ELECTIVES_4 : "Read my excerpt under year 1, year 2, and year 3. Take as many courses as you need to fulfill your degree requirements. My general point of view on electives is take them as needed, \
+                don't overwhelm yourself, core courses come first and electives later. An elective should never be so overwhelming that your grades in the main courses suffer.",
 
   OTHER : "There are a lot of other requirements that are sprinkled into getting the degree that occasionally get overlooked. For example, if you're in the honours you need 12.0 credits at the EECS4XXX level. \
           You need 42.0 credits at the 3XXX level or higher. You need 30.0 credits outside of computer science and mathematics. You need 24.0 credits in the science disciplines. There are a lot, so make sure \
-          you keep checking your academic calendar, degree progress report and check-in with guidance counsellors regularly to make sure you're hitting all the requirements.",
+          you keep checking your academic calendar, degree progress report, and check-in with guidance counsellors regularly to make sure you're hitting all the requirements.",
 
-  ME : "I'm Chris",
-
-  PATH : "",
+  ME : "Hey I'm Chris -- the reason I made this guide is because a lot of people would reach out to me asking common questions, so I put this website together as a way to answer all those common questions, \
+        document everything I've learned over the years, things I wish I knew when I was a first year student, and more. I was inspired when I saw students from other universities making guides like this, \
+        so I wanted to do the same. If there's any concerns you have about the content on this guide, want a topic added, or want to contribute, then feel free to message me on Discord, @chrispy#8933. \
+        Probably when I graduate and other people inherit this, then there will be more people to reach out to, so yeah.",
 }
 
 // Year 1 courses
 const EECS1001 = new Vue({ el: '#EECS1001' })
-const EECS1012 = new Vue({ el: '#EECS1012' })
+const EECS1012_1015 = new Vue({ el: '#EECS1012_1015' })
 const EECS1019 = new Vue({ el: '#EECS1019' })
 const EECS1022 = new Vue({ el: '#EECS1022' })
 const MATH1300 = new Vue({ el: '#MATH1300' })
@@ -125,18 +127,19 @@ const MATH2030 = new Vue({ el: '#MATH2030' })
 const ELECTIVES_2 = new Vue({ el: '#ELECTIVES_2' })
 
 // Year 3 courses
-const EECS3000 = new Vue({ el: '#EECS2001' })
-const EECS3101 = new Vue({ el: '#EECS2001' })
-const EECS3311 = new Vue({ el: '#EECS2001' })
-const EECS3215_3221 = new Vue({ el: '#EECS2001' })
-const EECS3401_3421_3461 = new Vue({ el: '#EECS2001' })
+const EECS3000 = new Vue({ el: '#EECS3000' })
+const EECS3101 = new Vue({ el: '#EECS3101' })
+const EECS3311 = new Vue({ el: '#EECS3311' })
+const EECS3215_3221 = new Vue({ el: '#EECS3215_3221' })
+const EECS3401_3421_3461 = new Vue({ el: '#EECS3401_3421_3461' })
 const ELECTIVES_3 = new Vue({ el : '#ELECTIVES_3' })
 
-// Year 4 Courses
+// Year 4 courses
 const EECS4XXX = new Vue({ el: '#EECS4XXX' })
 const ELECTIVES_4 = new Vue({ el: '#ELECTIVES_4' })
+
+// Other
 const OTHER = new Vue({ el: '#OTHER' })
 
-// About Author
+// About author
 const ME = new Vue({ el: '#ME' })
-const PATH = new Vue({ el: '#PATH' })

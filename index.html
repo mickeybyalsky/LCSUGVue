@@ -17,7 +17,6 @@
 
   <body data-spy="scroll" data-target="#navbar">
     <h1>The Lassonde Computer Science Unofficial Guide</h1>
-
     <nav id="navbar" class="navbar sticky-top bg-white">
       <ul class="nav nav-pills d-flex justify-content-between flex-grow-1">
         <li class="nav-item flex-row"> <a class="nav-link" href="#curriculum">Curriculum</a> </li>
@@ -44,7 +43,6 @@
     <div data-spy="scroll" data-target="#navbar" data-offset="0">
       <section id="curriculum">
         <h2>Computer Science Curriculum</h2> <br>
-
         <ul style="list-style-type:none">
           <li><a data-toggle="collapse" href="#YEAR1" aria-expanded="false" aria-controls="YEAR1">Year 1 Courses</a></li>
           <ul class="specialUL" style="list-style-type:none">
@@ -58,11 +56,11 @@
                   </div>
                 </div> <br>
 
-                <li><a data-toggle="collapse" href="#Y1course2" aria-expanded="false" aria-controls="Y1course2">EECS1012 - Introduction to Computing: A Net-centric Approach</a></li>
+                <li><a data-toggle="collapse" href="#Y1course2" aria-expanded="false" aria-controls="Y1course2">EECS1012 (Intro to Computing, Web) or EECS1015 (Intro to Computing, Python)</a></li>
                 <div class="collapse" id="Y1course2"> <br>
                   <div class="card card-body">
-                    <strong>Introduction to Computing: A Net-centric Approach - 3.00 credits</strong> <br>
-                    <div id="EECS1012"> <textbox name="EECS1012"></textbox> </div>
+                    <strong>EECS1012 or EECS1015, both 3.00 credits</strong> <br>
+                    <div id="EECS1012_1015"> <textbox name="EECS1012_1015"></textbox> </div>
                   </div>
                 </div> <br>
 
@@ -347,7 +345,6 @@
             <div class="card card-body">
               <strong>What's Co-Op? What's an Internship?</strong> <br>
               <div id="EECS1001"> <textbox name="EECS1001"></textbox> </div>
-              </p>
             </div>
           </div> <br>
 
@@ -449,11 +446,84 @@
             </div>
           </div> <br>
 
-          <li><a data-toggle="collapse" href="#path" aria-expanded="false" aria-controls="path">My University Record</a></li>
+          <li><a data-toggle="collapse" href="#path" aria-expanded="false" aria-controls="path">My University Career</a></li>
           <div class="collapse" id="path"> <br>
             <div class="card card-body">
-              <strong>My University Record</strong> <br>
-              <div id="PATH"> <textbox name="PATH"></textbox> </div>
+              <strong>My University Career</strong> <br>  <!-- not making a Vue component for this because it's long as shit + components don't preserve formatting like <br> and <ul><li> etc. -->
+              <p class="coursetext">
+                I feel like sharing my university career will be beneficial because I did not have a very conventional path. I decided midway through my degree that I wanted to drop from the honours program, I took
+                about 20 months off of school to do five internship back to back to back to back to back, and overall it was just...different than how most people do university. I just want to show whoever is reading
+                this that you don't have to approach university how you 'think' it should be done -- things changes, everyone's situation is unique, and more. For context, I graduated from high school June 2017 and
+                had no idea what I wanted to study in university. I knew that I was expected to go to university by my family (and I guess it's just the 'assumption' or 'generic' route people take after graduating high
+                school) and I originally thought about majoring in chemistry since it's what I excelled at in high school. My high school didn't offer computer science courses at the time so I never even really got
+                to explore if computer science was my thing or not. I applied to chemistry, but on a whim I decided to apply to computer science as well since I was always interested in technology and I had early
+                exposure to computers...so why not? I got accepted into computer science, never wrote a single line of code before, had no idea what it was about, but I just felt like it was right for me so I accepted
+                my offer to study computer science at York University, and started September 2017. So, here's basically the last four years of my life. Note, this will be really long. <br> <br>
+
+                <ul>
+                  <li> <strong>Fall 2017:</strong> took EECS1001, EECS1012, MATH1300, CHEM1000, POLS1000. I was just getting adjusted to university life. Made a few friends (who I'm still friends with to this day -- hi Leo and Dan),
+                    and focused mainly on school. I breezed through high school without having to study, so the change of environment was hard. I ended this semester with a Pass, A, C+, and A. POLS was year long. </li> <br>
+                  <li> <strong>Winter 2018:</strong> took EECS1019, EECS1022, MATH1310, CHEM1001, POLS1000. This was a really hard semester since I had the misfortunate of grouping really hard courses together, and having the worst
+                    professor in each of the classes without realizing it. I ended up having to drop MATH1310 and CHEM1001. I remember I went to one of the Lassonde academic advisors to ask for advice and the person I talked to
+                    suggested that I drop out of computer science, and that chemistry was better for me since I had an A in CHEM1000 and got a D+ in EECS1019. I actually almost did, but I stayed in out of spite. I ended this semester
+                    with a D+, C, dropped, dropped, and B+. </li> <br>
+                  <li> <strong>Summer 2018:</strong> you know how in high school when it's summer break, you get to enjoy your life for a few months before school starts again? I was thinking that's also how it worked in university, so I
+                    didn't make this summer too productive (which is an error my part, more on that later). I decided to take one course though, CHEM1001, and got an A. I also got my G2 license this summer, which was cool. </li> <br> <br>
+                  <li> <strong>Fall 2018:</strong> second year, cool. Had an enjoyable first year, couldn't complain. I was behind a bit though, I should've taken MATH1310 but I didn't. I took EECS2001, EECS2030, MATH1310, MATH1090,
+                    and MODR1770. Got my ass kicked in MATH1310 again, so I dropped it again. Rest of the courses were fine, and ended the semester with a C+, B, dropped, B, and MODR was year long. </li> <br>
+                  <li> <strong>Winter 2019:</strong> probably my hardest semester. I felt really behind all my peers in computer science classes, I couldn't 'get' concepts as fast as other people who were programming since high school, and
+                    overall this semester was really bad for my mental. I took EECS2011, EECS2021, EECS2031, and MODR1770. I got a D, A, D+, and A respectively, but those two Ds put me really close to academic probation (4.6 GPA). </li> <br>
+                  <li> <strong>Summer 2019:</strong> winter semester was pretty depressing and dropped my GPA significantly. When summer came I decided to stop moping about it and get my shit together, so I took bought an online Python course
+                    so I could learn how to code better, spent the summer writing a few personal projects and putting them on my GitHub, and I retook three courses this summer: EECS1019, EECS2011, and MATH1300. I also took HUMA2200, public
+                    speaking, which actually ended up being my favourite course and one that taught me a lot. I turned a 2 Ds and a C to 2 As and a B+ that summer, and got an A in HUMA2200.  I made a lot of new friends in my summer courses,
+                    worked a part time student IT job where I made even more friends, and overall it was an awesome and productive summer where I grew and matured a lot. I raised my GPA from a 4.6 to a 6.1, which was just barely high enough to
+                    admit me into the Lassonde internship program (needed a 6.0 minimum). </li> <br> <br>
+                  <li> <strong>Fall 2019:</strong> starting third year now. Took EECS3000, EECS3311, EECS3421, and ANTH3040. EECS3311 was a nightmare and dropped it. I got a C, dropped, B+, and ANTH was year long. I also went to my first
+                    hackathon this semester, Hack the North 2019. This is the largest hackathon in Canada, and it takes place at the University of Waterloo. So far up to this point, I had no relevant job experience. I didn't know a thing about
+                    co-ops or internships, but when I got to Hack the North it opened my eyes. In my group, there was a bunch of Waterloo students who were talking about they just finished their summer internship at Google, Microsoft, Facebook,
+                    and more. I'm pretty sure at the time they were just flexing on me, but it really inspired me because I didn't know students can take time from school and go work at these large tech companies. I vowed to get my first internship
+                    that summer, so I joined the Lassonde internship program. I registered, went to all their workshops, and got access to their job portal. Applied to around 75 places this fall, no responses except from IBM, which I failed the OA.
+                    Tough shit. I didn't know what "LeetCode" was or what an "OA" was, I didn't have anyone to guide me through this, since honestly, all my classmates were in the same boat. We all knew getting job experience was important but
+                    how do we prepare? How do we study and get better? We were all trying to figure it out together. </li> <br>
+                  <li> <strong>Winter 2020:</strong> nightmare semester. I took EECS3311, EECS3482, ENG1600, and ANTH3040. Relatively light courseload, but trying to juggle applying to internships, doing LeetCode to practise, making side projects
+                    to slap on your resume and get noticed - it was really overwhelming. Navigating recruitment season is so hard, especially if you're doing it blind and without guidance. I sent maybe 200 applications and heard nothing back. All the
+                    jobs I applied to on the Lassonde portal was doing nothing for me. I got my resume reviewed by one of the Lassonde academic advisors 3-4 times and even they were baffled why I wasn't hearing anything back. I was applying viciously
+                    all of January, February, and March...and it wasn't until the end of March I got an email from CaseWare asking me to take their OA. I took the OA, got invited to an interview. I was scared. I was praying. I took the interview a week
+                    after the OA, and I did really well. 10 minutes after I left the CaseWare office, I got an email saying they'd like to extend me a software engineer internship that summer. Fuck it, goal was completed, all that blood, sweat, and tears
+                    (literal tears - I actually did have break downs from the stress) was worth it! I was able to focus on school for the rest of the semester and ended with a B+, A, Pass, and B+. Oh also, this was when the COVID-19 pandemic started
+                    picking up. Around April, school and exams went remote. It was a pretty nice break, and made for easy exams. </li> <br>
+                  <li> <strong>Summer 2020:</strong> so, this was the summer I was supposed to be doing my first internship at CaseWare, right? Well, because of COVID-19, half the interns they extended offers to got their offer rescinded...which I was
+                    one of. You know why this was especially shitty? I got the email saying they were rescinding my offer two weeks before I was supposed to begin, giving me no time to find another internship, and I actually /declined/ interviews at
+                    other companies because I had already signed an offer at CaseWare. Things were looking pretty grim, but there was this program I saw advertised around called the MLH Fellowship by Major League Hacking. It was an internship where you
+                    work on open source software, and it was oriented towards students who lost their job because of the COVID-19 pandemic. I applied, got an interview, passed it, and I got this internship miraculously last minute. In the middle of this
+                    internship, CaseWare reached out to me asking if I wanted to intern with them during the fall, and I said okay. I signed an 8 month contract, so I'd be with them the upcoming fall and upcoming winter semesters. </li> <br> <br>
+                  <li> <strong>Fall 2020:</strong> my fourth year. I took time off school to be interning with CaseWare, since I wanted more work experience. I was on a frontend team and I hate frontend, so I wasn't particularly enjoying my time
+                    working here. While interning here I kept applying to more internships, and I got a job at MDA Space for the winter semester...so I told CaseWare I'd be breaking my contract and leaving the company early. They were okay with it,
+                    they understood, but Lassonde was very upset with me, saying I was unprofessional and ruining the school's reputation with the comapany. Call me selfish, but I didn't really care. I was just looking out for myself and what was
+                    best for me. </li> <br>
+                  <li> <strong>Winter 2021:</strong> I moved to Halifax with one of my friends who also got the job at MDA Space, and we lived together. It was a fun time. I wasn't content with CaseWare and MDA Space on my resume, though. I wanted
+                    bigger names. Back in November I got an invitation from Amazon to take their OA. I did 5-6 hours of LeetCode a day, followed a bunch of subreddits for CS majors, and connected with a bunch of people and joined many online communities.
+                    This was the point in time I found the 'CS Majors' and 'cscareers.dev' Discord servers, staples of any CS student. It did affect my performance at work, but I was doing LeetCode religiously everyday because I had an interview
+                    in February after passing Amazon's three stage OA. I took the interview and passed, so now I was en route to working at Amazon in the summer. Around March, I got an interview with Shopify, and I ended up getting the job offer as
+                    well for the summer...but I already signed an offer with Amazon. Not wanting to pass up the opportunity, I asked if the offer could be moved to the fall semester, and they said yes. Now I was also en route to working at Shopify
+                    in the fall - this would be my 5th internship in a row now. </li> <br>
+                  <li> <strong>Summer 2021:</strong> I worked at Amazon, and finally took MATH1014. I got a C+. I worked remotely from home for Amazon since COVID-19 was still fucking shit up, but I did take a one week trip to Vancouver to hang out with
+                    my friends who were working there. I met a bunch of other interns (not just from Amazon, but also LinkedIn and Microsoft!) and had a really good time. We went to the beach and went drinking every other day. It made me really sad I didn't
+                    choose to work hybrid, since Amazon gave the option of that or to work fully remote. After taking that trip to Vancouver, I really wish I worked over there instead. Oh well. </li> <br> <br>
+                  <li> <strong>Fall 2021:</strong> start of my fifth year. At this point in time I already decided I'd drop from the 4 year honours program to the 3 year regular program, so I've effectively taking 5 years now and I still don't have
+                    my degree for what's supposed to be a 3 year program. I think I definitely took too many internships, but with each recruiting season I went through I ended up learning a lot, making new connections, and expanding my network. I worked
+                    at Shoipfy and had a good time. It was also remote which sucked, but oh well. At this point in time, I was 75.0 / 90.0 credits done for my degree, so I just needed 5 more until I graduate. I did end up applying to jobs again during my
+                    Shopify term, but this time to both new grad and internship roles. The idea was that I'd apply to new grad roles at some companies, but other companies I applied to internship roles, because their new grad interviews were much harder
+                    and I could 'game' the system a bit. See, a new grad interview cycle at Facebook is ~5 stages. An intern interview cycle is 2 stages. So, if you want to new grad at Facebook, you can intern there first, and get a new grad return offer
+                    if your team likes you, and skip over new grad interviews if you don't feel confident in your skills to pass them. Speaking of Facebook, I applied and got an offer to intern there next summer, woohoo. </li> <br>
+                  <li> <strong>Winter 2022:</strong> taking my final courses this semester, EECS3101, EECS3221, PHYS1470, and STS3600. Technically done my degree by the end of this semester, all 90.0 / 90.0 credits. I won't be taking my convocation
+                    ceremony in June though, I'm going to delay it to October. </li> <br>
+                  <li> <strong>Summer 2022:</strong> I'll be at Facebook. Hopefully if COVID-19 calms down a bit (currently omicron is fucking the world up right now) I'll be living in Seattle. </li> <br>
+                  <li> <strong>Fall 2022:</strong> done my sixth and last internship at Facebook. Hopefully have a new grad return offer. Will be recruiting for new grad around this point in time, since I want to start new grad January 2023. </li> <br> <br>
+                  <li> <strong>TL;DR:</strong> F17 school -> W18 school -> S18 school -> F18 school -> W19 school -> S19 school -> F19 school -> W20 school -> S20 MLH Fellowship + TAing for EECS1012 -> F20 CaseWare -> W21 MDA Space -> S21 Amazon
+                    -> F21 Shopify -> W22 last school semester -> S22 Facebook -> F22 convocation in October + applying to new grad jobs -> W23 aiming to start my new grad job January 2023. September 2017 - October 2022. What a wild ride. </li>
+                </ul>
+              </p>
             </div>
           </div> <br>
           <p style="text-align:right;"> Found this guide useful? Star it on <a class="a-special" target="_blank" href="https://github.com/chrisngyn/LCSUG">GitHub</a>! // Last updated on 01/04/2022. </p>
